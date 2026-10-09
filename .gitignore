@@ -1,0 +1,13 @@
+﻿[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+.vs/
+.gradle/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.DS_Store
+Thumbs.db

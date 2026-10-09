@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flightsim.local/schemas/mission-schema-v1.json",
+  "title": "FlightSim Mission Definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["SchemaVersion", "MissionId", "MaximumDurationS", "Actors", "Objectives"],
+  "properties": {
+    "SchemaVersion": { "const": 1 },
+    "MissionId": { "type": "string", "minLength": 1 },
+    "DisplayName": { "type": "string" },
+    "Briefing": { "type": "string" },
+    "DefaultSeed": { "type": "integer" },
+    "MaximumDurationS": { "type": "number", "exclusiveMinimum": 0 },
+    "Actors": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": { "$ref": "#/$defs/actor" }
+    },
+    "Objectives": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/objective" }
+    }
+  },
+  "$defs": {
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["AircraftId", "IsPlayer", "Side", "Role", "InitialAiMode", "AiSkillNormalized", "InitialCondition"],
+      "properties": {
+        "AircraftId": { "type": "string", "minLength": 1 },
+        "Callsign": { "type": "string" },
+        "IsPlayer": { "type": "boolean" },
+        "Side": { "type": "integer", "minimum": 0, "maximum": 2, "description": "AircraftSide: Neutral=0 Friendly=1 Hostile=2" },
+        "Role": { "type": "integer", "minimum": 0, "maximum": 5, "description": "AircraftRole: Player=0 Wingman=1 Escort=2 Interceptor=3 Patrol=4 Threat=5" },
+        "InitialAiMode": { "type": "integer", "minimum": 0, "maximum": 13, "description": "MissionAiMode enum" },
+        "LeaderAircraftId": { "type": "string" },
+        "FormationSlot": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "AiSkillNormalized": { "type": "number", "minimum": 0, "maximum": 1 },
+        "FormationForwardOffsetM": { "type": "number" },
+        "FormationRightOffsetM": { "type": "number" },
+        "FormationUpOffsetM": { "type": "number" },
+        "SimulationModelId": { "type": "string" },
+        "VisualModelId": { "type": "string" },
+        "InitialCondition": { "$ref": "#/$defs/initialCondition" },
+        "Route": { "type": "array", "items": { "$ref": "#/$defs/waypoint" } },
+        "InitialFailures": { "type": "array", "items": { "$ref": "#/$defs/failure" } }
+      }
+    },
+    "initialCondition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Preset", "SpawnMode", "InternalFuelFraction", "LandingGearDown"],
+      "properties": {
+        "Preset": { "type": "integer", "minimum": 0, "maximum": 2, "description": "ColdAndDark=0 RunwayReady=1 Airborne=2" },
+        "SpawnMode": { "type": "integer", "minimum": 0, "maximum": 1, "description": "KtexRunway27=0 Geodetic=1" },
+        "LongitudeRad": { "type": "number", "minimum": -3.141592653589793, "maximum": 3.141592653589793 },
+        "LatitudeRad": { "type": "number", "minimum": -1.5707963267948966, "maximum": 1.5707963267948966 },
+        "EllipsoidHeightM": { "type": "number" },
+        "HeadingRad": { "type": "number" },
+        "PitchRad": { "type": "number" },
+        "RollRad": { "type": "number" },
+        "TrueAirspeedMps": { "type": "number", "minimum": 0 },
+        "BodyAngularVelocityXRadps": { "type": "number" },
+        "BodyAngularVelocityYRadps": { "type": "number" },
+        "BodyAngularVelocityZRadps": { "type": "number" },
+        "InternalFuelFraction": { "type": "number", "minimum": 0, "maximum": 1 },
+        "ExternalFuelKg": { "type": "number", "minimum": 0 },
+        "BingoFuelKg": { "type": "number", "minimum": 0 },
+        "JokerFuelKg": { "type": "number", "minimum": 0 },
+        "LandingGearDown": { "type": "boolean" },
+        "Loadout": { "$ref": "#/$defs/loadout" }
+      }
+    },
+    "loadout": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Station0": { "$ref": "#/$defs/store" }, "Station1": { "$ref": "#/$defs/store" },
+        "Station2": { "$ref": "#/$defs/store" }, "Station3": { "$ref": "#/$defs/store" },
+        "Station4": { "$ref": "#/$defs/store" }, "Station5": { "$ref": "#/$defs/store" },
+        "Station6": { "$ref": "#/$defs/store" }, "Station7": { "$ref": "#/$defs/store" },
+        "Station8": { "$ref": "#/$defs/store" }
+      }
+    },
+    "store": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["StationIndex", "StoreType", "Quantity"],
+      "properties": {
+        "StationIndex": { "type": "integer", "minimum": 0, "maximum": 8 },
+        "StoreType": { "type": "string" },
+        "Quantity": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "waypoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["WaypointId", "LongitudeRad", "LatitudeRad", "EllipsoidHeightM", "TargetTrueAirspeedMps"],
+      "properties": {
+        "WaypointId": { "type": "string", "minLength": 1 },
+        "LongitudeRad": { "type": "number" },
+        "LatitudeRad": { "type": "number" },
+        "EllipsoidHeightM": { "type": "number" },
+        "TargetTrueAirspeedMps": { "type": "number", "minimum": 0 },
+        "AcceptanceRadiusM": { "type": "number", "minimum": 0 }
+      }
+    },
+    "failure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Type", "SeverityNormalized", "DurationS"],
+      "properties": {
+        "Type": { "type": "integer", "minimum": 0, "maximum": 5, "description": "FailureType enum" },
+        "SeverityNormalized": { "type": "number", "minimum": 0, "maximum": 1 },
+        "DurationS": { "type": "number", "minimum": 0 }
+      }
+    },
+    "objective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ObjectiveId", "Type", "RequiredCount", "TimeLimitS", "IsRequired"],
+      "properties": {
+        "ObjectiveId": { "type": "string", "minLength": 1 },
+        "DisplayName": { "type": "string" },
+        "Type": { "type": "integer", "minimum": 0, "maximum": 6, "description": "Takeoff=0 NeutralizeHostiles=1 HoldArea=2 ProtectAircraft=3 ReachWaypoint=4 LandAtKtex=5 Survive=6" },
+        "SubjectAircraftId": { "type": "string" },
+        "TargetAircraftId": { "type": "string" },
+        "RequiredCount": { "type": "integer", "minimum": 0 },
+        "TimeLimitS": { "type": "number", "minimum": 0 },
+        "IsRequired": { "type": "boolean" }
+      }
+    }
+  }
+}

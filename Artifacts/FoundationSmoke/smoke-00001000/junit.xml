@@ -1,0 +1,7 @@
+<testsuite name="FlightSim.Missions" tests="5" failures="0">
+  <testcase classname="KTEX_SCRAMBLE_01" name="seed-1000" time="1.0473633"></testcase>
+  <testcase classname="KTEX_CAP_01" name="seed-1000" time="3.1134093"></testcase>
+  <testcase classname="KTEX_ESCORT_01" name="seed-1000" time="3.3902493"></testcase>
+  <testcase classname="KTEX_EMERGENCY_RTB_01" name="seed-1000" time="1.105159"></testcase>
+  <testcase classname="TRAINING_NAV_01" name="seed-1000" time="0.3774431"></testcase>
+</testsuite>

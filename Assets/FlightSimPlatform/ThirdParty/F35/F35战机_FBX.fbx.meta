@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 1d18ba38b80323447af61157512b4e75
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canopy_glass
+    second: {fileID: 2100000, guid: a0cf25fa9c67d7643980cbbb7fe05d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1
+    second: {fileID: 2100000, guid: d606fb9e5be1ca44bb6b3c604c9f1c3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.1
+    second: {fileID: 2100000, guid: ca28e90f7ce24f4479f0aadcc8576f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.10
+    second: {fileID: 2100000, guid: 98c02a8fb39a47246a7d52fe30150295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.11
+    second: {fileID: 2100000, guid: a3759043dbb592a4ba17dc4595cc1283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.12
+    second: {fileID: 2100000, guid: 5787b6e399e05d646b22807ad566c326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.13
+    second: {fileID: 2100000, guid: ab98f706b08fc1e4bb19ff6e2ebd00c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.14
+    second: {fileID: 2100000, guid: 24cfb6badf02a5a4e8e2502d2f478e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.15
+    second: {fileID: 2100000, guid: 15253eefceccd6c468670604f2f20703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.16
+    second: {fileID: 2100000, guid: 9104fcd63a289fe4d941acdecd847d7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.17
+    second: {fileID: 2100000, guid: 1d70fc3f80a8ec745adbdc772a2ba682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.18
+    second: {fileID: 2100000, guid: 9ddca129fb9fdf044b18f695206556a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.19
+    second: {fileID: 2100000, guid: d8fb2b51b4a1b9f4c8c3ffc2971fb37d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.2
+    second: {fileID: 2100000, guid: 02987e2f82bb78b4e91c41ba6274fb65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.20
+    second: {fileID: 2100000, guid: 7716147353aefdc4a92913f7de2b217f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.21
+    second: {fileID: 2100000, guid: f393ce04875c7a84eb4a45f72deadc09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.22
+    second: {fileID: 2100000, guid: cfe0de84200ff5d43867682e60127d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.23
+    second: {fileID: 2100000, guid: 11b59fc951eb42a48a68a0056f3da188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.24
+    second: {fileID: 2100000, guid: 23f4753277437bd4493e464dbdbf3c21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.25
+    second: {fileID: 2100000, guid: fb036cfb8a203d344937cceef0c19d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.26
+    second: {fileID: 2100000, guid: 9c670a3fdbae4d74eb9e39b1d5b47d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.27
+    second: {fileID: 2100000, guid: 8998dea5bddb04a4ea34aafba1fd5bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.28
+    second: {fileID: 2100000, guid: 966748fdca0531c408b87ca33eefe950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.29
+    second: {fileID: 2100000, guid: 42cd115c49ed4964a963a2e28cdeb4c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.3
+    second: {fileID: 2100000, guid: 3d076b9fc5f7d2b46ab8efef25956fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.30
+    second: {fileID: 2100000, guid: 82b37acef76860a40aba9f1e66475955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.31
+    second: {fileID: 2100000, guid: 636d854d28c16fc4e8db810567794868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.32
+    second: {fileID: 2100000, guid: 84177483efc9854488baeabfc3d0a083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.33
+    second: {fileID: 2100000, guid: 726639bec4bce6240a913f91117d50db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.34
+    second: {fileID: 2100000, guid: fffae50c0feecee40a0ea5f7bbbaaf56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.35
+    second: {fileID: 2100000, guid: f5a4f0618b24ddf489b673fb3cb023c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.36
+    second: {fileID: 2100000, guid: 98741a337d6998f44b4c27cfea33de1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.37
+    second: {fileID: 2100000, guid: c891ea6002769b9479a8922e6caf7510, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.38
+    second: {fileID: 2100000, guid: db77a34f1703b81479fc1555632ba35b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.39
+    second: {fileID: 2100000, guid: 3e9643a412cf6dd44ae6c934f6922196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.4
+    second: {fileID: 2100000, guid: 1d6e2165171957743ad03c2e78179ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.40
+    second: {fileID: 2100000, guid: 81e4583cd10deee40ae23b4e913fb620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.41
+    second: {fileID: 2100000, guid: 657b3f962f9641840b92075d899ccee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.5
+    second: {fileID: 2100000, guid: 7e7ea0525ec0dce41ac50ead5b9405d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.6
+    second: {fileID: 2100000, guid: a1a3405dcd3ea524db0abea89efb90d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.7
+    second: {fileID: 2100000, guid: 332a1eee44f575a40b714e31a5693920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.8
+    second: {fileID: 2100000, guid: 1fa0924671839c841858ef469314464d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_1.9
+    second: {fileID: 2100000, guid: 3c58e1d7af55a084983a37defd18f36b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_2
+    second: {fileID: 2100000, guid: 11944edb93e552d42876678006dd2690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_2.1
+    second: {fileID: 2100000, guid: 203b50f6851d9c745a4dcb683f148d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_2.2
+    second: {fileID: 2100000, guid: eccdcbca2c56f144ebcdfe213e6408b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_2.3
+    second: {fileID: 2100000, guid: 080c5a39b0693884da71c81cf220b03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3
+    second: {fileID: 2100000, guid: f3f26442c2a8acd47ad196605c002fc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.1
+    second: {fileID: 2100000, guid: 8e930e485bcad2e489c81c7d14bedab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.10
+    second: {fileID: 2100000, guid: 7dfa28fe415b2724fa5cd1787a6a76d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.11
+    second: {fileID: 2100000, guid: 310f1c47f20237a4ebc130c5d68cc1b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.12
+    second: {fileID: 2100000, guid: 4908f7f190652974a937ac5e5f0ef976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.13
+    second: {fileID: 2100000, guid: da2b0a917a452af4e8179567fbab9e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.14
+    second: {fileID: 2100000, guid: 9b834abffa7295f40baa77d76194095d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.15
+    second: {fileID: 2100000, guid: 1a605208f30f57e4f9b7a6771f8ade89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.16
+    second: {fileID: 2100000, guid: a22fefa13550df64d93648c7e9ab12fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.17
+    second: {fileID: 2100000, guid: b6257953f7069a3478dc1863408e0fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.18
+    second: {fileID: 2100000, guid: 05beb6c14aab7934d81952073e5d9a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.19
+    second: {fileID: 2100000, guid: c7af44cc63c7bfe4aac3c24482b3be2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.2
+    second: {fileID: 2100000, guid: 5ddeeaaf7da44a744b98d5badef84b66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.20
+    second: {fileID: 2100000, guid: 0b49d727b3acd024f9d9d9555d7b2f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.21
+    second: {fileID: 2100000, guid: 9e54d40f0bcb73b48a0a90f23365b853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.22
+    second: {fileID: 2100000, guid: cc27f4adee54343499fb2b3ae171772d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.23
+    second: {fileID: 2100000, guid: aa7bb0b7e4a7048449dc8572cf84e6bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.24
+    second: {fileID: 2100000, guid: 028c8e52fb1be8443910dbfee8edcf7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.25
+    second: {fileID: 2100000, guid: c8e2d7ea84d68bd4b933c2e97605cbac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.26
+    second: {fileID: 2100000, guid: 54fdc6d1de83e8a4bab5131b66212af6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.3
+    second: {fileID: 2100000, guid: b449308f38ece4f498ed5ff0518a306a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.4
+    second: {fileID: 2100000, guid: 8a3e40a8d901023468280457219a3854, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.5
+    second: {fileID: 2100000, guid: 6817b453e81aa0147854fadffd6b7711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.6
+    second: {fileID: 2100000, guid: ccfbf73d7b4b57a40bfea69ddd37870d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.7
+    second: {fileID: 2100000, guid: 8765b4387f832f14a9e990d045ac55cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.8
+    second: {fileID: 2100000, guid: 70e354665eaf33143a105940ba7f0ee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_ext_3.9
+    second: {fileID: 2100000, guid: 2f4e9e2b0934d264eb0a0532d19c19b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_int_1
+    second: {fileID: 2100000, guid: b1b3e88ca75088749b384f140ef54bad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_int_1.1
+    second: {fileID: 2100000, guid: 4678204a7fbe2e1458c81dfee13d70df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_mfd
+    second: {fileID: 2100000, guid: 1d4a3652f0d430640b9120706c70fd53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: f35_pfd
+    second: {fileID: 2100000, guid: e8fa5bfe6a659454993a1c7cf01c64cc, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

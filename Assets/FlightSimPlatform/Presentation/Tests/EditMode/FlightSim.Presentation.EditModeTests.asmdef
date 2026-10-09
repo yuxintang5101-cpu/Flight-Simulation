@@ -1,0 +1,23 @@
+{
+  "name": "FlightSim.Presentation.EditModeTests",
+  "rootNamespace": "FlightSim.Platform.Presentation.Tests",
+  "references": [
+    "FlightSim.Contracts",
+    "FlightSim.Presentation",
+    "FlightSim.Data"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

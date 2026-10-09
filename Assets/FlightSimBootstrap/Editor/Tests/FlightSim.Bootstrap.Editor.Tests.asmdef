@@ -1,0 +1,23 @@
+{
+  "name": "FlightSim.Bootstrap.Editor.Tests",
+  "rootNamespace": "FlightSim.Bootstrap.Editor.Tests",
+  "references": [
+    "FlightSim.Bootstrap.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

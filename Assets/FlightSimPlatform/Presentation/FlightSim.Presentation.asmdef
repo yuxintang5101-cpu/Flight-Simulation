@@ -1,0 +1,23 @@
+{
+  "name": "FlightSim.Presentation",
+  "rootNamespace": "FlightSim.Platform.Presentation",
+  "references": [
+    "FlightSim.Contracts",
+    "FlightSim.Missions",
+    "FlightSim.Unity",
+    "FlightSim.Data",
+    "FlightSim.Core",
+    "FlightSim.Integration",
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

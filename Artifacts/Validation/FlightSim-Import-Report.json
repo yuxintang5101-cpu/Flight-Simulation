@@ -1,0 +1,97 @@
+{
+    "GeneratedUtc": "2026-09-16T13:05:46.0566794Z",
+    "TokenFingerprint": "7cc758d8c810",
+    "Checks": [
+        {
+            "Id": "ENV-UNITY-001",
+            "Status": 0,
+            "Summary": "Unity 版本",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "ENV-PIPELINE-001",
+            "Status": 0,
+            "Summary": "渲染管线",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "ENV-WINDOWS-001",
+            "Status": 0,
+            "Summary": "目标平台",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "ENV-INPUT-001",
+            "Status": 0,
+            "Summary": "输入处理",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "PKG-CESIUM-001",
+            "Status": 0,
+            "Summary": "Cesium 包版本",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "PKG-CESIUM-002",
+            "Status": 0,
+            "Summary": "Cesium 原生加载",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "SEC-TOKEN-001",
+            "Status": 0,
+            "Summary": "Cesium 访问令牌",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "SCENE-CESIUM-001",
+            "Status": 0,
+            "Summary": "Cesium 地形和影像",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "ASSET-F35-001",
+            "Status": 0,
+            "Summary": "F-35 材质",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "SCENE-FLIGHT-001",
+            "Status": 0,
+            "Summary": "飞行场景锚点",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "MISSION-FOUR-001",
+            "Status": 0,
+            "Summary": "默认任务",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "DATA-HUB-001",
+            "Status": 0,
+            "Summary": "FlightDataHub",
+            "Detail": "",
+            "Remediation": ""
+        },
+        {
+            "Id": "SEC-READONLY-001",
+            "Status": 0,
+            "Summary": "网络只读表面",
+            "Detail": "",
+            "Remediation": ""
+        }
+    ]
+}

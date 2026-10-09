@@ -1,0 +1,76 @@
+using System;
+using System.Net;
+using System.Net.Sockets;
+using FlightSim.Platform.Contracts;
+using FlightSim.Platform.Integration;
+
+public sealed class FlightSimUdpV2Receiver : IDisposable
+{
+    private readonly UdpClient client = new UdpClient(new IPEndPoint(IPAddress.Loopback, 49001));
+
+    public void Poll()
+    {
+        while (client.Available > 0)
+        {
+            IPEndPoint sender = null;
+            byte[] datagram = client.Receive(ref sender);
+            ReadOnlySpan<byte> packet = datagram;
+            if (!UdpPacketCodec.TryDecodeHeader(packet, out UdpPacketHeader header))
+                continue; // Bad version, length, message type or CRC.
+
+            switch (header.MessageType)
+            {
+                case UdpMessageType.FastState:
+                    if (UdpPacketCodec.TryDecodeFastState(packet, out _, out AircraftFastState fast))
+                        OnFastState(in fast);
+                    break;
+
+                case UdpMessageType.MissionState:
+                    if (UdpPacketCodec.TryDecodeMissionState(packet, out _, out MissionState mission))
+                        OnMissionState(in mission);
+                    break;
+
+                case UdpMessageType.MissionActorState:
+                    if (UdpPacketCodec.TryDecodeMissionActorState(packet, out _, out MissionActorState actor))
+                        OnActorState(in actor);
+                    break;
+
+                case UdpMessageType.MissionObjectiveState:
+                    if (UdpPacketCodec.TryDecodeMissionObjectiveState(packet, out _, out MissionObjectiveState objective))
+                        OnObjectiveState(in objective);
+                    break;
+
+                case UdpMessageType.AircraftCombatState:
+                    if (UdpPacketCodec.TryDecodeAircraftCombatState(packet, out _, out AircraftCombatState combat))
+                        OnCombatState(in combat);
+                    break;
+
+                case UdpMessageType.AutomationRunState:
+                    if (UdpPacketCodec.TryDecodeAutomationRunState(packet, out _, out AutomationRunState run))
+                        OnAutomationState(in run);
+                    break;
+
+                case UdpMessageType.MissionEvent:
+                    if (UdpPacketCodec.TryDecodeMissionEvent(packet, out _, out MissionEvent missionEvent))
+                        OnMissionEvent(in missionEvent);
+                    break;
+
+                case UdpMessageType.WeaponEngagementEvent:
+                    if (UdpPacketCodec.TryDecodeWeaponEngagementEvent(packet, out _, out WeaponEngagementEvent engagement))
+                        OnEngagement(in engagement);
+                    break;
+            }
+        }
+    }
+
+    private static void OnFastState(in AircraftFastState state) { }
+    private static void OnMissionState(in MissionState state) { }
+    private static void OnActorState(in MissionActorState state) { }
+    private static void OnObjectiveState(in MissionObjectiveState state) { }
+    private static void OnCombatState(in AircraftCombatState state) { }
+    private static void OnAutomationState(in AutomationRunState state) { }
+    private static void OnMissionEvent(in MissionEvent value) { }
+    private static void OnEngagement(in WeaponEngagementEvent value) { }
+
+    public void Dispose() => client.Dispose();
+}

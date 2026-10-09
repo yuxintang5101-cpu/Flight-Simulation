@@ -1,0 +1,23 @@
+{
+  "name": "FlightSim.Unity",
+  "rootNamespace": "FlightSim.Platform.Unity",
+  "references": [
+    "FlightSim.Contracts",
+    "FlightSim.Core",
+    "FlightSim.Data",
+    "FlightSim.Integration",
+    "FlightSim.Missions",
+    "CesiumForUnity",
+    "Unity.Mathematics",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

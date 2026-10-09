@@ -1,0 +1,16 @@
+{
+  "name": "FlightSim.Data",
+  "rootNamespace": "FlightSim.Platform.Data",
+  "references": [
+    "FlightSim.Contracts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

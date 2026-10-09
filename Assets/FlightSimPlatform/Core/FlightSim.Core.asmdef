@@ -1,0 +1,16 @@
+{
+  "name": "FlightSim.Core",
+  "rootNamespace": "FlightSim.Platform.Core",
+  "references": [
+    "FlightSim.Contracts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

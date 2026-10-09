@@ -1,0 +1,25 @@
+{
+  "name": "FlightSim.EditModeTests",
+  "rootNamespace": "FlightSim.Platform.Tests.EditMode",
+  "references": [
+    "FlightSim.Contracts",
+    "FlightSim.Core",
+    "FlightSim.Data",
+    "FlightSim.Integration",
+    "FlightSim.Missions"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

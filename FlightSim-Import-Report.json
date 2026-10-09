@@ -1,0 +1,11 @@
+{
+  "tokenFingerprint": "7cc758d8c810",
+  "entries": [
+    {"status": "Passed", "checkId": "ENV-UNITY-001", "message": "Unity Editor version is exact.", "repairAdvice": ""},
+    {"status": "Passed", "checkId": "ENV-RENDER-001", "message": "Built-in Render Pipeline detected.", "repairAdvice": ""},
+    {"status": "Passed", "checkId": "ENV-TARGET-001", "message": "Windows x86-64 target detected.", "repairAdvice": ""},
+    {"status": "Passed", "checkId": "ENV-HOST-001", "message": "Windows x64 editor host detected.", "repairAdvice": ""},
+    {"status": "Passed", "checkId": "ENV-INPUT-001", "message": "Active Input Handling is Both.", "repairAdvice": ""},
+    {"status": "Passed", "checkId": "SEC-TOKEN-001", "message": "Dedicated Cesium token fingerprint recorded.", "repairAdvice": ""}
+  ]
+}

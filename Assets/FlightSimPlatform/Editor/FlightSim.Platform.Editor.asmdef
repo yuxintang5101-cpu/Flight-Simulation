@@ -1,0 +1,24 @@
+{
+  "name": "FlightSim.Platform.Editor",
+  "rootNamespace": "FlightSim.Platform.Editor",
+  "references": [
+    "FlightSim.Contracts",
+    "FlightSim.Integration",
+    "FlightSim.Missions",
+    "FlightSim.Unity",
+    "FlightSim.Presentation",
+    "CesiumForUnity",
+    "Unity.Mathematics"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

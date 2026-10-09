@@ -1,0 +1,637 @@
+{
+    "SchemaVersion": 1,
+    "MissionId": "KTEX_ESCORT_01",
+    "DisplayName": "KTEX 护航",
+    "Briefing": "保护MAGIC-01沿预定航路抵达西侧撤离点。",
+    "DefaultSeed": 3001,
+    "MaximumDurationS": 900.0,
+    "Actors": [
+        {
+            "AircraftId": "VIPER-01",
+            "Callsign": "VIPER-01",
+            "IsPlayer": true,
+            "Side": 1,
+            "Role": 0,
+            "InitialAiMode": 9,
+            "LeaderAircraftId": "",
+            "FormationSlot": 0,
+            "AiSkillNormalized": 0.85,
+            "FormationForwardOffsetM": 0.0,
+            "FormationRightOffsetM": 0.0,
+            "FormationUpOffsetM": 0.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8823375982758844,
+                "LatitudeRad": 0.6628760499074463,
+                "EllipsoidHeightM": 6500.0,
+                "HeadingRad": 4.974188368183839,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 205.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.6,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 1,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station2": {
+                        "StationIndex": 2,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 6,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station7": {
+                        "StationIndex": 7,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "VIPER-02",
+            "Callsign": "VIPER-02",
+            "IsPlayer": false,
+            "Side": 1,
+            "Role": 1,
+            "InitialAiMode": 3,
+            "LeaderAircraftId": "VIPER-01",
+            "FormationSlot": 1,
+            "AiSkillNormalized": 0.85,
+            "FormationForwardOffsetM": -90.0,
+            "FormationRightOffsetM": -90.0,
+            "FormationUpOffsetM": 10.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8823201449833647,
+                "LatitudeRad": 0.6628620872734304,
+                "EllipsoidHeightM": 6510.0,
+                "HeadingRad": 4.974188368183839,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 205.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.62,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 1,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station2": {
+                        "StationIndex": 2,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 6,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station7": {
+                        "StationIndex": 7,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "VIPER-03",
+            "Callsign": "VIPER-03",
+            "IsPlayer": false,
+            "Side": 1,
+            "Role": 1,
+            "InitialAiMode": 3,
+            "LeaderAircraftId": "VIPER-01",
+            "FormationSlot": 3,
+            "AiSkillNormalized": 0.85,
+            "FormationForwardOffsetM": -90.0,
+            "FormationRightOffsetM": 90.0,
+            "FormationUpOffsetM": 10.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8823550515684045,
+                "LatitudeRad": 0.6628585966149264,
+                "EllipsoidHeightM": 6520.0,
+                "HeadingRad": 4.974188368183839,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 205.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.62,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 1,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station2": {
+                        "StationIndex": 2,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 6,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station7": {
+                        "StationIndex": 7,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "MAGIC-01",
+            "Callsign": "MAGIC-01",
+            "IsPlayer": false,
+            "Side": 1,
+            "Role": 2,
+            "InitialAiMode": 4,
+            "LeaderAircraftId": "",
+            "FormationSlot": 0,
+            "AiSkillNormalized": 0.65,
+            "FormationForwardOffsetM": 0.0,
+            "FormationRightOffsetM": 0.0,
+            "FormationUpOffsetM": 0.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8822677851058048,
+                "LatitudeRad": 0.6628935031999663,
+                "EllipsoidHeightM": 6400.0,
+                "HeadingRad": 4.974188368183839,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 190.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.75,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 1,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station2": {
+                        "StationIndex": 2,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 6,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station7": {
+                        "StationIndex": 7,
+                        "StoreType": "AIM-120C",
+                        "Quantity": 1
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [
+                {
+                    "WaypointId": "ESCORT-WP1",
+                    "LongitudeRad": -1.88670092140587,
+                    "LatitudeRad": 0.6635741816082441,
+                    "EllipsoidHeightM": 6400.0,
+                    "TargetTrueAirspeedMps": 190.0,
+                    "AcceptanceRadiusM": 6000.0
+                },
+                {
+                    "WaypointId": "ESCORT-EGRESS",
+                    "LongitudeRad": -1.8928095737878506,
+                    "LatitudeRad": 0.6646213791594406,
+                    "EllipsoidHeightM": 6500.0,
+                    "TargetTrueAirspeedMps": 190.0,
+                    "AcceptanceRadiusM": 6000.0
+                }
+            ],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "BANDIT-01",
+            "Callsign": "BANDIT-01",
+            "IsPlayer": false,
+            "Side": 2,
+            "Role": 3,
+            "InitialAiMode": 6,
+            "LeaderAircraftId": "",
+            "FormationSlot": 0,
+            "AiSkillNormalized": 0.45,
+            "FormationForwardOffsetM": 0.0,
+            "FormationRightOffsetM": 0.0,
+            "FormationUpOffsetM": 0.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8893189152838617,
+                "LatitudeRad": 0.666366708411435,
+                "EllipsoidHeightM": 6800.0,
+                "HeadingRad": 2.8797932657906437,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 225.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.68,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station2": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station7": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "BANDIT-02",
+            "Callsign": "BANDIT-02",
+            "IsPlayer": false,
+            "Side": 2,
+            "Role": 3,
+            "InitialAiMode": 6,
+            "LeaderAircraftId": "",
+            "FormationSlot": 0,
+            "AiSkillNormalized": 0.45,
+            "FormationForwardOffsetM": 0.0,
+            "FormationRightOffsetM": 0.0,
+            "FormationUpOffsetM": 0.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8896679811342605,
+                "LatitudeRad": 0.6665761479216743,
+                "EllipsoidHeightM": 6900.0,
+                "HeadingRad": 2.8797932657906437,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 225.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.68,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station2": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station7": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        },
+        {
+            "AircraftId": "BANDIT-03",
+            "Callsign": "BANDIT-03",
+            "IsPlayer": false,
+            "Side": 2,
+            "Role": 3,
+            "InitialAiMode": 6,
+            "LeaderAircraftId": "",
+            "FormationSlot": 0,
+            "AiSkillNormalized": 0.45,
+            "FormationForwardOffsetM": 0.0,
+            "FormationRightOffsetM": 0.0,
+            "FormationUpOffsetM": 0.0,
+            "SimulationModelId": "F16_SEMI_REAL_V1",
+            "VisualModelId": "F35_VISUAL_V1",
+            "InitialCondition": {
+                "Preset": 2,
+                "SpawnMode": 1,
+                "LongitudeRad": -1.8900170469846596,
+                "LatitudeRad": 0.6667855874319136,
+                "EllipsoidHeightM": 7000.0,
+                "HeadingRad": 2.8797932657906437,
+                "PitchRad": 0.04363323129985824,
+                "RollRad": 0.0,
+                "TrueAirspeedMps": 225.0,
+                "BodyAngularVelocityXRadps": 0.0,
+                "BodyAngularVelocityYRadps": 0.0,
+                "BodyAngularVelocityZRadps": 0.0,
+                "InternalFuelFraction": 0.68,
+                "ExternalFuelKg": 0.0,
+                "BingoFuelKg": 450.0,
+                "JokerFuelKg": 900.0,
+                "LandingGearDown": false,
+                "Loadout": {
+                    "Station0": {
+                        "StationIndex": 0,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    },
+                    "Station1": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station2": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station3": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station4": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station5": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station6": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station7": {
+                        "StationIndex": 0,
+                        "StoreType": "",
+                        "Quantity": 0
+                    },
+                    "Station8": {
+                        "StationIndex": 8,
+                        "StoreType": "AIM-9X",
+                        "Quantity": 1
+                    }
+                }
+            },
+            "Route": [],
+            "InitialFailures": []
+        }
+    ],
+    "Objectives": [
+        {
+            "ObjectiveId": "PROTECT",
+            "DisplayName": "保护MAGIC-01",
+            "Type": 3,
+            "SubjectAircraftId": "VIPER-01",
+            "TargetAircraftId": "MAGIC-01",
+            "RequiredCount": 1,
+            "TimeLimitS": 850.0,
+            "IsRequired": true
+        },
+        {
+            "ObjectiveId": "ESCORT_EGRESS",
+            "DisplayName": "护送至撤离点",
+            "Type": 4,
+            "SubjectAircraftId": "MAGIC-01",
+            "TargetAircraftId": "",
+            "RequiredCount": 1,
+            "TimeLimitS": 850.0,
+            "IsRequired": true
+        }
+    ]
+}

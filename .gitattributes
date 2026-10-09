@@ -1,0 +1,10 @@
+/Assets/FlightSimPlatform/ThirdParty/F35/F35战机_FBX.fbx filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Editor/CesiumForUnityNative.dll filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/Android/arm64/libCesiumForUnityNative.so filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/Android/x86_64/libCesiumForUnityNative.so filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/Standalone/libCesiumForUnityNative.dylib filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/WebGL/lib/libCesium3DTilesSelection.a filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/WebGL/libCesiumForUnityNative.a filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/iOS/lib/libCesium3DTilesSelection.a filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/iOS/lib/libCesiumGltfReader.a filter=lfs diff=lfs merge=lfs -text
+/Packages/com.cesium.unity/Plugins/iOS/libCesiumForUnityNative.a filter=lfs diff=lfs merge=lfs -text
